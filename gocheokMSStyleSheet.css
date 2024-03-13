@@ -1,0 +1,253 @@
+﻿body {
+    margin: 0px;
+}
+
+.up_Bar {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background: #EBFBFF;
+    padding: 8px 12px;
+}
+
+.logo {
+    display: inline
+}
+
+    .logo img {
+        width: 600px;
+        height: 140px;
+    }
+
+.main_board {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 527px;
+    width: 960px;
+    margin: 96px auto 100px auto;
+}
+
+.grade {
+    width: 300px;
+    height: 75px;
+    font-size: 16px;
+    text-align: center;
+    text-orientation: upright;
+    border-bottom: 3px solid black;
+    border-left: 2px solid black;
+}
+
+.btn_wrap {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 50px;
+    text-align: center;
+    font-size: 0;
+}
+
+.post {
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 600;
+}
+
+.signin_wrap {
+    display: inline-flex;
+    text-align: right;
+    margin-top: 2px;
+}
+
+.signBtn {
+    border: 2px;
+    margin-right: 5px;
+    background: transparent;
+    color: purple;
+    font-size: 16px;
+    font-family: Batang;
+    font-style: italic;
+}
+
+.info_board {
+    margin: 49px auto 80px auto;
+    position: sticky;
+    text-align: center;
+    height: 90px;
+}
+
+#f {
+    font-size: 66px;
+    margin-bottom: 10px;
+}
+
+#s {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.signin_board {
+    border: 2px solid black;
+    margin: 145px auto 196px;
+    /*height: 500px;*/
+    width: 600px;
+}
+
+.Sname {
+    margin-top: 10px;
+    margin-left: 20px;
+    border-bottom: 2px dashed black;
+}
+
+.Sgrade_wrap {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-bottom: 2px dashed black;
+}
+
+.Sgrade select, p {
+    margin-top: 15px;
+}
+
+.Sgrade select {
+    margin-left: 20px;
+    height: 30px;
+}
+
+.Sgrade p {
+    margin-left: 40px;
+}
+
+.SstudentID {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-bottom: 2px dashed black;
+}
+
+.btn_Signin {
+    margin-right: 30px;
+    background: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    font-family: Algerian;
+    transform: scale(1.6);
+}
+
+.btn_cancel {
+    margin-left: 30px;
+    background: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    font-family: Algerian;
+    transform: scale(1.6);
+    height: 23px;
+}
+
+.Spwd_wrap {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Spwd {
+    margin-top: 13px;
+    margin-left: 15px;
+    height: 18px;
+}
+
+.btnPost {
+    border: 3px solid black;
+    border-radius: 6px;
+    background: transparent;
+    color: black;
+    font-size: 25px;
+}
+
+.page_wrap {
+    display: flex;
+    text-align: center;
+    margin: auto auto 100px;
+    border: 1px solid black;
+}
+
+.page {
+    margin: 1%;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    background: #CCCCCC;
+    color: blue;
+}
+
+.gradebtn_wrap {
+    display: flex;
+    width: 958px;
+}
+
+.listbox-item {
+    font-size: 25px; /* 원하는 글꼴 크기로 변경 */
+    font-family: 'Trebuchet MS';
+}
+
+.post_board {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 527px;
+    width: 960px;
+    margin: 96px auto 100px auto;
+}
+
+.title {
+    display: flex;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-bottom: 1px dashed black;
+}
+
+.title dt{
+    margin-left: 4px;
+}
+
+.info {
+    display: flex;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-bottom: 1px dashed black;
+}
+
+.cont {
+    display: flex;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-bottom: 1px dashed black;
+    height: 373px;
+    width: 951px;
+}
+
+.postdate{
+    margin-left: auto;
+    margin-top: auto;
+    /*height: 20px;*/ 
+    color: dimgray;
+    font-family: 'Ami R';
+}
